@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reviews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="425">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -60,6 +60,11 @@
             <path>
               <item name="imdb_reviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="imdb_reviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imdb_reviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imdb_reviews" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586267067457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="basic selenium test">
+      <created>1586268660506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586268660506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -175,13 +187,14 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="initial Commit, bs4 scraping" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial Commit, bs4 scraping" />
+    <MESSAGE value="basic selenium test" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic selenium test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/reviews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="425">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
