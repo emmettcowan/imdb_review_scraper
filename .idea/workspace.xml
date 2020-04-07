@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fec9cc4-6a5d-4ac3-be11-80682d54c5e7" name="Default Changelist" comment="" />
+    <list default="true" id="1fec9cc4-6a5d-4ac3-be11-80682d54c5e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/numbers2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,14 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reviews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/numbers2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="83" lean-forward="true" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -44,7 +53,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="80" />
     <option name="y" value="-20" />
-    <option name="width" value="1234" />
+    <option name="width" value="1235" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,11 +69,6 @@
             <path>
               <item name="imdb_reviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="imdb_reviews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imdb_reviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imdb_reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,13 +159,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586268660506</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="web scraping for ratings on every episode added">
+      <created>1586284700344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586284700344</updated>
+    </task>
+    <task id="LOCAL-00006" summary="web scraping for ratings on every episode added">
+      <created>1586288248462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586288248462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12818792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -188,16 +207,21 @@
     </ignored-roots>
     <MESSAGE value="initial Commit, bs4 scraping" />
     <MESSAGE value="basic selenium test" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic selenium test" />
+    <MESSAGE value="web scraping for ratings on every episode added" />
+    <option name="LAST_COMMIT_MESSAGE" value="web scraping for ratings on every episode added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/reviews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="83" lean-forward="true" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
         </state>
       </provider>
     </entry>

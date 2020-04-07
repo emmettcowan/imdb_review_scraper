@@ -50,7 +50,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - web 
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - web scraping
 
 ## Versioning
 

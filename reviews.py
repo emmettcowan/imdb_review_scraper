@@ -1,27 +1,25 @@
 from requests import get
 from bs4 import BeautifulSoup
-import time
-from selenium import webdriver
+import csv
 
-url = 'http://www.imdb.com/search/title?release_date=2017&sort=num_votes,desc&page=1'
-response = get(url)
+rattings = []
 
-html_soup = BeautifulSoup(response.text, 'html.parser')
-type(html_soup)
-
-movie_containers = html_soup.find_all('div', class_='lister-item mode-advanced')
-print(type(movie_containers))
-print(len(movie_containers))
-
-
-for x in range(len(movie_containers)):
-    first_movie = movie_containers[x]
-    title = first_movie.h3.a.text
-    ratting = first_movie.find('div', class_="inline-block ratings-imdb-rating").strong.text
-    print(title + "    " +ratting)
+for x in range(1, 31):
+    url = f'https://www.imdb.com/title/tt0096697/episodes?season={x}&ref_=tt_eps_sn_31'
+    response = get(url)
+    html_soup = BeautifulSoup(response.text, 'html.parser')
+    episode_containers = html_soup.find_all('div', {"class": ["list_item even", "list_item odd"]} )
+    season_rattings = []
+    for x in range(len(episode_containers)):
+        episode = episode_containers[x]
+        season_rattings.append(str(episode.find('span', class_="ipl-rating-star__rating").text))
+    rattings.append(season_rattings)
 
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\Emmett\PycharmProjects\imdb_reviews\drivers\chromedriver.exe")
-driver.get(url);
-time.sleep(5) # Let the user actually see something!
-driver.quit()
+
+f = open('numbers2.csv', 'w', newline='')
+
+with f:
+    writer = csv.writer(f)
+    for x in range(len(rattings)):
+        writer.writerow(rattings[x])
